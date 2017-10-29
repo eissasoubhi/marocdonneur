@@ -1,13 +1,7 @@
 body{
 
 }
-.banner{
-    min-height: 400px;
-    padding: 185px 0;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin-bottom: 40px;
+.bg{
 background: -moz-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(234,251,175,1)), color-stop(100%, rgba(247,171,149,1))); /* safari4+,chrome */
 background: -webkit-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* safari5.1+,chrome10+ */
@@ -15,6 +9,26 @@ background: -o-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1)
 background: -ms-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* ie10+ */
 background: linear-gradient(90deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAFBAF', endColorstr='#f7ab95',GradientType=1 ); /* ie6-9 */
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+.banner img{
+    position: absolute;
+    top: 0;
+    height: 80%;
+    right: 20%;
+}
+.banner{
+    min-height: 400px;
+    padding: 185px 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 40px;
 }
 .banner h1 {
     font-size: 48px;
@@ -57,7 +71,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAFBAF', end
 }
 .options{
     display: flex;
+    flex-direction:row-reverse;
 }
 .options .select{
     margin-left: 15px;
+}
+.input-group-btn:last-child > .btn {
+     border-left-width: 2px!important;
+    border-right-width: 0!important;
+    margin-left: 0px !important;
+    margin-right: -3px !important;
 }
