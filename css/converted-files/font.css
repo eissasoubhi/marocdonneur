@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'PDMS_Saleem_QuranFont-signed';
+  src: url('PDMS_Saleem_QuranFont-signed.eot');
+  src: url('PDMS_Saleem_QuranFont-signed.woff2') format('woff2'),
+       url('PDMS_Saleem_QuranFont-signed.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '_PDMS_Saleem_QuranFont';
+  src: url('_PDMS_Saleem_QuranFont.woff') format('woff'),
+       url('_PDMS_Saleem_QuranFont.ttf') format('truetype'),
+       url('_PDMS_Saleem_QuranFont.svg#_PDMS_Saleem_QuranFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

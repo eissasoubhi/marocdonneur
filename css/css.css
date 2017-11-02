@@ -1,26 +1,69 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 body{
-
+font-family: 'Droid Arabic Naskh', serif;
+/*font-family: 'Baloo Bhaijaan', cursive;*/
 }
 .bg{
-background: -moz-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(234,251,175,1)), color-stop(100%, rgba(247,171,149,1))); /* safari4+,chrome */
-background: -webkit-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(0deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* ie10+ */
-background: linear-gradient(90deg, rgba(234,251,175,1) 0%, rgba(247,171,149,1) 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAFBAF', endColorstr='#f7ab95',GradientType=1 ); /* ie6-9 */
+background: -moz-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(123,255,229,1)), color-stop(100%, rgba(23,144,121,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* ie10+ */
+background: linear-gradient(90deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bffe5', endColorstr='#179079',GradientType=1 );
+
 position: absolute;
 left: 0;
 right: 0;
 top: 0;
 bottom: 0;
+opacity: 0.94;
 }
 
-.banner img{
+.banner img.fadedbg{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+}
+.banner .btn-border{
+    position: relative;
+    margin: auto;
+    color: #376960;
+    border: 3px solid #53756f;
+    padding: 10px 30px;
+    font-size: 25px;
+    background: url(../Pattern-with-dots-and-hearts/3773-[Converted].png);
+}
+.banner .text{
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    width: 600px;
+}
+.banner .text p{
+    margin-top: 20px;
+    font-size: 36px;
+    color: #2f5d54;
+    font-weight: bold;
+    text-shadow: -1px 0px 0px #65e8d0;
+}
+.banner .hearts{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    background: url(../Pattern-with-dots-and-hearts/Sans-titre-3.png) no-repeat bottom left;
+}
+.banner img.hands{
     position: absolute;
     top: 0;
     height: 80%;
-    right: 20%;
+    left: 20%;
 }
 .banner{
     min-height: 400px;
@@ -29,6 +72,7 @@ bottom: 0;
     background-position: center;
     position: relative;
     margin-bottom: 40px;
+    display: flex;
 }
 .banner h1 {
     font-size: 48px;
@@ -65,9 +109,21 @@ bottom: 0;
 
 .banner .button{
     position: absolute;
-    bottom: 60px;
+    bottom: 70px;
     left: 0;
     right: 0;
+    /*width: 500px;*/
+}
+.banner .button p{
+    font-size: 20px;
+    color: #27403b;
+}
+.banner .button .btn{
+    margin-top: 11px;
+}
+.quran{
+    font-family: PDMS_Saleem_QuranFont-signed;
+    font-size: 24px!important;
 }
 .options{
     display: flex;
