@@ -48,7 +48,7 @@ opacity: 0.94;
 }
 .banner .text p{
     margin-top: 20px;
-    font-size: 36px;
+    font-size: 29px;
     color: #2f5d54;
     font-weight: bold;
     text-shadow: -1px 0px 0px #65e8d0;
@@ -93,21 +93,21 @@ opacity: 0.94;
     position: relative;
 }
 .banner .action.play a{
-    font-size: 50px;
+    font-size: 27px;
     border-width: 5px;
-    border: 5px solid ;
+    border: 5px solid;
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     display: flex;
     position: relative;
     margin: auto;
-    text-decoration: none;
+    text-decoration: none
 }
 .banner .action.play a{
     text-align: center;
     display: flex;
-    color: #FFF !important;
+    color: #2f5d55 !important;
 }
 
 .banner .button{
@@ -117,9 +117,37 @@ opacity: 0.94;
     right: 0;
     /*width: 500px;*/
 }
+.banner .account_buttons{
+    position: absolute;
+    top: 319px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: right;
+    padding-right: 163px;
+}
+.action.play {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+}
+.banner .account_buttons a{
+    color: #FFF;
+    border: 1px solid #FFF;
+    margin: 0 10px;
+}
+.banner .account_buttons a:hover, .banner .account_buttons a:active{
+    color: #FFF;
+    border: 1px solid #e74c3c;
+    background: #e74c3c;
+}
 .banner .button p{
     font-size: 20px;
     color: #27403b;
+    position: absolute;
+    top: -17px;
+    right: 120PX;
 }
 .banner .button .btn{
     margin-top: 11px;
