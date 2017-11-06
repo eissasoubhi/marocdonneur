@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 body{
-font-family: 'Droid Arabic Naskh', serif;
+/*font-family: 'Droid Arabic Naskh', serif;*/
+font-family: "Droid Arabic Kufi", tahoma, "Noto Sans";
 font-size: 16px;
 /*font-family: 'Baloo Bhaijaan', cursive;*/
 }
@@ -9,20 +10,53 @@ p{
 font-size: 16px;
 }
 .bg{
-background: -moz-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(123,255,229,1)), color-stop(100%, rgba(23,144,121,1))); /* safari4+,chrome */
-background: -webkit-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* ie10+ */
-background: linear-gradient(90deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bffe5', endColorstr='#179079',GradientType=1 );
+    background: -moz-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(123,255,229,1)), color-stop(100%, rgba(23,144,121,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* ie10+ */
+    background: linear-gradient(90deg, rgba(123,255,229,1) 0%, rgba(23,144,121,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bffe5', endColorstr='#179079',GradientType=1 );
 
-position: absolute;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-opacity: 0.94;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.94;
+}
+#menu{
+    background: url(../Pattern-with-dots-and-hearts/Sans-titre-3.png) repeat 0px -162px;
+}
+#menu .logo img{
+    height: 53px;
+}
+#menu a{
+    color: #2f5d55;
+    font-size: 14px;
+}
+#menu a:hover, #menu a:active{
+    color: #FFF;
+}
+#menu:after{
+    content: "";
+    background: -moz-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgb(38, 158, 136) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(123,255,229,1)), color-stop(100%, rgb(38, 158, 136))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgb(38, 158, 136) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgb(38, 158, 136) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(0deg, rgba(123,255,229,1) 0%, rgb(38, 158, 136) 100%); /* ie10+ */
+    background: linear-gradient(90deg, rgba(123,255,229,1) 0%, rgb(38, 158, 136) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bffe5', endColorstr='#269e88',GradientType=1 );
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.94;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .banner img.fadedbg{
@@ -43,15 +77,19 @@ opacity: 0.94;
 .banner .text{
     position: absolute;
     right: 0px;
-    top: 90px;
+    top: 60px;
     width: 600px;
 }
 .banner .text p{
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: 29px;
-    color: #2f5d54;
+    color: #ffffff;
     font-weight: bold;
-    text-shadow: -1px 0px 0px #65e8d0;
+    font-family: 'Droid Arabic Naskh', serif;
+    text-shadow: -1px 0px 0px rgba(0, 0, 0, 0.63);
+}
+.banner .text img{
+    width: 230px;
 }
 .banner .hearts{
     position: absolute;
@@ -112,19 +150,19 @@ opacity: 0.94;
 
 .banner .button{
     position: absolute;
-    bottom: 70px;
+    bottom: 67px;
     left: 0;
     right: 0;
     /*width: 500px;*/
 }
 .banner .account_buttons{
     position: absolute;
-    top: 319px;
+    top: 289px;
     left: 0;
     right: 0;
     z-index: 1;
     text-align: right;
-    padding-right: 163px;
+    padding-right: 141px;
 }
 .action.play {
     position: absolute;
@@ -144,9 +182,9 @@ opacity: 0.94;
 }
 .banner .button p{
     font-size: 20px;
-    color: #27403b;
+    color: #c8eae4;
     position: absolute;
-    top: -17px;
+    top: -52px;
     right: 120PX;
 }
 .banner .button .btn{
@@ -181,7 +219,7 @@ button.search{
 .footer {
     padding-top: 100px;
     background: url(../Pattern-with-dots-and-hearts/footer.png) bottom;
-    background-size: 720px;
+    background-size: 940px;
     background-repeat: repeat-x;
     /* background-color: #f5f5f5; */
 }
@@ -190,4 +228,8 @@ button.search{
 }
 h4 > .fa {
     font-size: 22px;
+}
+.supprt_us{
+    background: url(../Design-with-globe-for-world-population-day/Untitled-4.png) left bottom no-repeat #f7f7f7;
+    /* background-size: 300px; */
 }
