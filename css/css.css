@@ -29,10 +29,11 @@ font-size: 16px;
     background: url(../Pattern-with-dots-and-hearts/Sans-titre-3.png) repeat 0px -162px;
 }
 #menu .logo img{
-    height: 53px;
+    height: 43px;
+    margin-top: 5px;
 }
 #menu a{
-    color: #2f5d55;
+    color: #294641;
     font-size: 14px;
 }
 #menu a:hover, #menu a:active{
@@ -232,4 +233,96 @@ h4 > .fa {
 .supprt_us{
     background: url(../Design-with-globe-for-world-population-day/Untitled-4.png) left bottom no-repeat #f7f7f7;
     /* background-size: 300px; */
+}
+#main-container {
+    margin: auto !important;
+    padding: 15px;
+}
+#membership_page .member_form {
+    max-width: 450px;
+    margin: 80px auto 30px auto;
+    background: #226b5e;
+    color: #fff;
+    -webkit-box-shadow: 0 0 150px 4px rgba(0,0,0,0.2) !important;
+    -moz-box-shadow: 0 0 150px 4px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 0 150px 4px rgba(0,0,0,0.2) !important;
+}
+#membership_page .form-title {
+    padding: 0px 20px 10px 20px;
+    border-bottom: 1px dashed #4d877d;
+}
+/* #membership_page .form-title .fa-user{
+    font-size: 150px;
+    border-radius: 100%;
+    border: 5px solid #d24435;
+    width: 160px;
+    margin-top: -80px;
+    background-color: #ec6f62;
+    overflow: hidden;
+}
+#membership_page .form-title .fa-user:before {
+    content: "\f007";
+    position: relative;
+    top: 29px;
+} */
+#membership_page .form-title .user {
+    background-color: #39a792;
+    padding: 10px 24px;
+    border-radius: 100%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: -70px;
+    border: 5px solid #226b5f;
+}
+#membership_page .form-title .user img {
+    position: relative;
+    top: 10px;
+}
+#membership_page .form-title h1 {
+    font-size: 18px;
+    color: #f1f1f1;
+}
+#membership_page .form-body .form-group input {
+    background: #f9f9f9;
+    font-size: 14px;
+}
+#membership_page .form-body .req_field {
+    border: none !important;
+}
+#membership_page .form-body .form-group {
+    background: #fff;
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2) !important;
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2) !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2) !important;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+#membership_page .form-body {
+    padding: 30px 30px 10px 30px;
+}
+#membership_page .member_form .list-group {
+    background: rgba(255, 255, 255, 0.18);
+}
+#membership_page .member_form .list-group .list-group-item {
+    background: none;
+    border: none;
+    font-size: 12px;
+}
+#membership_page .form-sumbit {
+    padding: 0px 30px 10px 30px;
+}
+#membership_page .form-sumbit .btn {
+    height: 40px;
+    background: #FFA41D;
+    font-size: 16px;
+}
+#membership_page .form-tools {
+    padding: 10px 30px 40px 30px;
+    font-size: 12px;
+}
+#membership_page .member_form a {
+    color: #fff;
 }
