@@ -233,6 +233,8 @@ font-family: "Droid Arabic Kufi", tahoma, "Noto Sans";
 }
 .banner .button .btn{
     margin-top: 11px;
+    z-index: 99;
+    position: relative;
 }
 .quran{
     font-family: PDMS_Saleem_QuranFont-signed;
