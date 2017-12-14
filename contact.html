@@ -16,10 +16,10 @@
         <link rel="stylesheet" href="css/css.css">
         <link rel="stylesheet" href="css/converted-files/font.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <!-- <link rel="stylesheet" type="text/css" href="TextInputEffects/css/set1.css"> -->
-        <link rel="stylesheet" type="text/css" href="TextInputEffects/css/set2.css">
+        <link rel="stylesheet" type="text/css" href="TextInputEffects/css/set1.css">
+        <!-- <link rel="stylesheet" type="text/css" href="TextInputEffects/css/set2.css"> -->
     </head>
-    <body class="signin">
+    <body class="contact">
         <!-- <div class="signin"></div> -->
         <nav class="navbar navbar-default" id="menu">
             <div class="container">
@@ -42,53 +42,70 @@
             </div>
         </nav>
         <div class="container smart_page" id="main-container" style="min-height: 624px;">
-            <div id="uploader_container"></div>
-            <div id="membership_page">
-                <div class="member_form">
-                    <div class="form-title text-center">
-                        <div class="user">
-                            <img src="user.png">
-                        </div>
-                        <h1>تسجيل الدخول</h1>
+            <div class="fields">
+                <div class="form-title text-center">
+                    <h1>راسلنا</h1>
+                </div>
+                <div class="row field">
+                    <div class="col-md-2 col-md-offset-2 field_label">
+                        <label class="" for="input-13">
+                             <span class="req">(*)</span> الإسم :
+                        </label>
                     </div>
-                    <form action="https://soundeals.com/users/invitation_submit" role="form" class="check_submit" id="invitation_form" method="post" accept-charset="utf-8">
-                        <input type="hidden" name="csrf_token" value="54aef55cd3eee38c028c06608a0014ed">
-                        <div class="form-body">
-                            <div class="form-group">
-                                <span class="input input--ruri">
-                                    <input class="input__field input__field--ruri" type="text" id="input-26" />
-                                    <label class="input__label input__label--ruri" for="input-26">
-                                        <span class="input__label-content input__label-content--ruri"><span class="sep">(*)</span> البريد الإلكتروني</span>
-                                    </label>
-                                </span>
-                            </div>
-                            <div class="form-group">
-                                <span class="input input--ruri">
-                                    <input class="input__field input__field--ruri" type="text" id="input-26" />
-                                    <label class="input__label input__label--ruri" for="input-26">
-                                        <span class="input__label-content input__label-content--ruri"><span class="sep">(*)</span> كلمة المرور </span>
-                                    </label>
-                                </span>
-                            </div>
-                            <!-- <div class="form-group">
-                                <span class="input input--ruri">
-                                    <input class="input__field input__field--ruri" type="text" id="input-26" />
-                                    <label class="input__label input__label--ruri" for="input-26">
-                                        <span class="input__label-content input__label-content--ruri"><span class="sep">(*)</span> اعادة كلمة المرور </span>
-                                    </label>
-                                </span>
-                            </div> -->
-                        </div>
-                        <div class="form-sumbit">
-                            <button class="btn btn-block submit_button" type="submit"><i class="fa loading-icon"></i> دخول</button>
-                        </div>
-                        <div class="form-tools nice-font-2">
-                            <div class="row">
-                                <div class="col-xs-6"> <a href="https://soundeals.com/forget-password">نسيت كلمة المرور ؟</a> </div>
-                                <div class="col-xs-6 text-left"> <a href="https://soundeals.com/re-activate">ليس لديك حساب ؟</a> </div>
-                            </div>
-                        </div>
-                    </form>
+                    <div class="col-md-6">
+                        <span class="input input--minoru">
+                            <input class="input__field input__field--minoru" type="text" id="input-13" />
+                            <label class="input__label input__label--minoru" for="input-13">
+                            </label>
+                        </span>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col-md-2 col-md-offset-2 field_label">
+                        <label class="" for="input-13">
+                             <span class="req">(*)</span> البريد الإليكترونى :
+                        </label>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="input input--minoru">
+                            <input class="input__field input__field--minoru" type="text" id="input-14" />
+                            <label class="input__label input__label--minoru" for="input-14">
+                            </label>
+                        </span>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col-md-2 col-md-offset-2 field_label">
+                        <label class="" for="input-13">
+                             <span class="req">(*)</span> عنوان الموضوع :
+                        </label>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="input input--minoru">
+                            <input class="input__field input__field--minoru" type="text" id="input-15" />
+                            <label class="input__label input__label--minoru" for="input-13">
+                            </label>
+                        </span>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col-md-2 col-md-offset-2 field_label">
+                        <label class="" for="input-13">
+                             <span class="req">(*)</span> نص الموضوع :
+                        </label>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="input input--minoru">
+                            <textarea rows="5" id="input-16" class="input__field input__field--minoru"></textarea>
+                            <label class="input__label input__label--minoru" for="input-16">
+                            </label>
+                        </span>
+                    </div>
+                </div>
+                <div class="row field submit_btn">
+                    <div class="col-md-6 col-md-offset-4 text-center ">
+                        <button class="btn btn-primary btn-wide">ارسل</button>
+                    </div>
                 </div>
             </div>
         </div>

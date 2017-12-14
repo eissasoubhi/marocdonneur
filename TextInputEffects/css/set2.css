@@ -105,7 +105,7 @@
 	transition: transform 0.7s, stroke 0.7s;
 	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
-} 
+}
 
 .input__field--nao:focus + .input__label--nao,
 .input--filled .input__label--nao {
@@ -167,7 +167,7 @@
 	transition: transform 0.7s, stroke 0.7s;
 	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
-} 
+}
 
 .input__field--shoko:focus + .input__label--shoko,
 .input--filled .input__label--shoko {
@@ -396,7 +396,7 @@
 	transition: transform 0.7s, fill 0.7s;
 	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
-} 
+}
 
 .input__field--kozakura:focus,
 .input--filled .input__field--kozakura {
@@ -614,7 +614,7 @@
 	opacity: 1;
 	-webkit-transition: opacity 0s 0.3s;
 	transition: opacity 0s 0.3s;
-} 
+}
 
 .input__field--nariko:focus + .input__label--nariko::before,
 .input--filled .input__label--nariko::before {
@@ -799,10 +799,11 @@
 .input__label--ruri {
 	width: 100%;
 	position: absolute;
-	text-align: left;
+	text-align: right;
 	font-size: 1em;
 	padding: 10px 0 5px;
 	pointer-events: none;
+    right: 0;
 }
 
 .input__label--ruri::after {
@@ -810,7 +811,7 @@
 	position: absolute;
 	width: 100%;
 	height: 7px;
-	background: #6a7989;
+	background: #7ccbb5;
 	left: 0;
 	top: 100%;
 	-webkit-transform-origin: 50% 100%;
@@ -829,16 +830,16 @@
 
 .input__field--ruri:focus + .input__label--ruri::after,
 .input--filled .input__label--ruri::after {
-	background: #a3d39c;
+	background: #7ccbb5;
 	-webkit-transform: scale3d(1, 0.25, 1);
 	transform: scale3d(1, 0.25, 1);
 }
 
 .input__field--ruri:focus + .input__label--ruri .input__label-content--ruri,
 .input--filled .input__label--ruri .input__label-content--ruri {
-	color: #a3d39c;
-	-webkit-transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
-	transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
+	color: #7ccbb5;
+	-webkit-transform: translate3d(124px, 3em, 0) scale3d(0.655, 0.655, 1);
+	transform: translate3d(124px, 3em, 0) scale3d(0.655, 0.655, 1);
 }
 
 /* Kohana */

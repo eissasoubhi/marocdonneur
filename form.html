@@ -46,7 +46,7 @@
                 <div class="row field">
                     <div class="col-md-2 col-md-offset-2 field_label">
                         <label class="" for="input-13">
-                             (*) اسم المتبرع :
+                             <span class="req">(*)</span> اسم المتبرع :
                         </label>
                     </div>
                     <div class="col-md-6">
@@ -60,14 +60,14 @@
                 <div class="row field">
                     <div class="col-md-2 col-md-offset-2 field_label">
                         <label class="" for="input-14">
-                             (*) الدولة  :
+                             <span class="req">(*)</span> الدولة  :
                         </label>
                     </div>
                     <div class="col-md-6">
                         <span class="input input--minoru">
-                            <select class="form-control select select-white select-block mbl" id="input-14">
+                            <select class="form-control select select-white select-block mbl anim-shadow" id="input-14">
                                 <optgroup label="Profile">
-                                    <option value="0">فصيلة الدم</option>
+                                    <option value="0">المغرب</option>
                                     <option value="1">My Friends</option>
                                 </optgroup>
                                 <optgroup label="System">
@@ -76,7 +76,118 @@
                                     <option value="4">Logout</option>
                                 </optgroup>
                             </select>
+                            <label class="input__label input__label--minoru" for="input-14">
+                            </label>
                         </span>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col-md-2 col-md-offset-2 field_label">
+                        <label class="" for="input-15">
+                             <span class="req">(*)</span> رقم الهاتف :
+                        </label>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="input input--minoru">
+                            <input class="input__field input__field--minoru" type="text" id="input-15" />
+                            <label class="input__label input__label--minoru" for="input-15">
+                            </label>
+                        </span>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col-md-2 col-md-offset-2 field_label">
+                        <label class="" for="input-14">
+                             <span class="req">(*)</span> فصيلة الدم :
+                        </label>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="input input--minoru">
+                            <select class="form-control select select-white select-block mbl anim-shadow" id="input-16">
+                                <optgroup label="Profile">
+                                    <option value="0">+O</option>
+                                    <option value="1">My Friends</option>
+                                </optgroup>
+                                <optgroup label="System">
+                                    <option value="2">Messages</option>
+                                    <option value="3">My Settings</option>
+                                    <option value="4">Logout</option>
+                                </optgroup>
+                            </select>
+                            <label class="input__label input__label--minoru" for="input-16">
+                            </label>
+                        </span>
+                    </div>
+                </div>
+                <div class="grey_area">
+                    <div class="row fields_group">
+                        <div class="col-md-12">
+                            <h2>خيـــارات لطريقة التواصل</h2>
+                        </div>
+                    </div>
+                    <div class="row field">
+                        <div class="col-md-2 col-md-offset-2 field_label">
+                            <label class="" for="input-16">
+                                <span class="req">(*)</span> البريد الالكتروني :
+                            </label>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="input input--minoru">
+                                <input class="input__field input__field--minoru" type="text" id="input-16" />
+                                <label class="input__label input__label--minoru" for="input-16">
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row field">
+                        <div class="col-md-2 col-md-offset-2 field_label">
+                            <label class="" for="input-18">
+                                <span class="req">(*)</span> نوع الإتصال :
+                            </label>
+                        </div>
+                        <div class="col-md-6 ">
+                            <span class="checkbox--minoru col-md-5">
+                                <label class="checkbox" for="input-18">
+                                  <input type="checkbox" value="" id="input-18" data-toggle="checkbox">
+                                  رسائل نصية :
+                                </label>
+                            </span>
+                            <span class="checkbox--minoru col-md-5 col-md-offset-1">
+                                <label class="checkbox" for="input-19">
+                                  <input type="checkbox" value="" id="input-19" data-toggle="checkbox" checked>
+                                  اتصال :
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row field">
+                        <div class="col-md-2 col-md-offset-2 field_label">
+                            <label class="" for="input-14">
+                                 <span class="req">(*)</span> وقت الإتصال :
+                            </label>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="input input--minoru">
+                                <select class="form-control select select-white select-block mbl anim-shadow" id="input-16">
+                                    <optgroup label="Profile">
+                                        <option value="0">24 ساعة</option>
+                                        <option value="1">My Friends</option>
+                                    </optgroup>
+                                    <optgroup label="System">
+                                        <option value="2">Messages</option>
+                                        <option value="3">My Settings</option>
+                                        <option value="4">Logout</option>
+                                    </optgroup>
+                                </select>
+                                <label class="input__label input__label--minoru" for="input-16">
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row field submit_btn">
+                    <div class="col-md-6 col-md-offset-4 text-center ">
+                        <button class="btn btn-primary btn-wide">اضف بياناتك </button>
                     </div>
                 </div>
             </div>
@@ -96,6 +207,7 @@
         <script src="TextInputEffects/js/classie.js"></script>
         <script type="text/javascript">
             $("select").select2({dropdownCssClass: 'dropdown-inverse'});
+            $(':checkbox').radiocheck();
             jQuery(document).ready(function($) {
                 $('input.input__field').each(function(index, inputEl) {
                     if( inputEl.value.trim() !== '' ) {
